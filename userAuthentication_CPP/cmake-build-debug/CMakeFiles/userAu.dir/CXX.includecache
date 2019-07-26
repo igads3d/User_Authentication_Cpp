@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.cpp
+inputParameterInspection.h
+/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.h
+
+/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.h
+string
+-
+vector
+-
+iostream
+-
+
+/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/main.cpp
+iostream
+-
+stdio.h
+-
+string
+-
+vector
+-
+inputParameterInspection.h
+/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.h
+
+/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/userDetails.cpp
+iostream
+-
+map
+-
+fstream
+-
+
