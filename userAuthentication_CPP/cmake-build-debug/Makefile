@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+registration.o: registration.cpp.o
+
+.PHONY : registration.o
+
+# target to build an object file
+registration.cpp.o:
+	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/registration.cpp.o
+.PHONY : registration.cpp.o
+
+registration.i: registration.cpp.i
+
+.PHONY : registration.i
+
+# target to preprocess a source file
+registration.cpp.i:
+	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/registration.cpp.i
+.PHONY : registration.cpp.i
+
+registration.s: registration.cpp.s
+
+.PHONY : registration.s
+
+# target to generate assembly for a file
+registration.cpp.s:
+	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/registration.cpp.s
+.PHONY : registration.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... registration.o"
+	@echo "... registration.i"
+	@echo "... registration.s"
 .PHONY : help
 
 

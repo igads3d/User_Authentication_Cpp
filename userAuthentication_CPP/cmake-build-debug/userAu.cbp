@@ -89,6 +89,12 @@
 		<Unit filename="/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/main.cpp">
 			<Option target="userAu"/>
 		</Unit>
+		<Unit filename="/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/registration.cpp">
+			<Option target="userAu"/>
+		</Unit>
+		<Unit filename="/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/registration.h">
+			<Option target="userAu"/>
+		</Unit>
 		<Unit filename="/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/userDetails.h">
 			<Option target="userAu"/>
 		</Unit>
