@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.cpp
-inputParameterInspection.h
-/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.h
-
 /Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.h
 string
 -
@@ -29,12 +25,4 @@ vector
 -
 inputParameterInspection.h
 /Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.h
-
-/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/userDetails.cpp
-iostream
--
-map
--
-fstream
--
 

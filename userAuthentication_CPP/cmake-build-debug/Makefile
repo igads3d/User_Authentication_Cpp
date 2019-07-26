@@ -177,33 +177,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-userDetails.o: userDetails.cpp.o
-
-.PHONY : userDetails.o
-
-# target to build an object file
-userDetails.cpp.o:
-	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/userDetails.cpp.o
-.PHONY : userDetails.cpp.o
-
-userDetails.i: userDetails.cpp.i
-
-.PHONY : userDetails.i
-
-# target to preprocess a source file
-userDetails.cpp.i:
-	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/userDetails.cpp.i
-.PHONY : userDetails.cpp.i
-
-userDetails.s: userDetails.cpp.s
-
-.PHONY : userDetails.s
-
-# target to generate assembly for a file
-userDetails.cpp.s:
-	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/userDetails.cpp.s
-.PHONY : userDetails.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,9 +192,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... userDetails.o"
-	@echo "... userDetails.i"
-	@echo "... userDetails.s"
 .PHONY : help
 
 

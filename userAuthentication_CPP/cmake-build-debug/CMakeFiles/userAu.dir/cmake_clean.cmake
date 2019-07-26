@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/userAu.dir/main.cpp.o"
   "CMakeFiles/userAu.dir/inputParameterInspection.cpp.o"
-  "CMakeFiles/userAu.dir/userDetails.cpp.o"
   "userAu.pdb"
   "userAu"
 )

@@ -3,4 +3,4 @@ project(userAu)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(userAu main.cpp inputParameterInspection.cpp inputParameterInspection.h userDetails.cpp)
+add_executable(userAu main.cpp inputParameterInspection.cpp inputParameterInspection.h userDetails.h)
