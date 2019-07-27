@@ -7,8 +7,9 @@
 #define USERAU_REGISTRATION_H
 
 
-class registration {
+class Registration {
 public:
+    Registration()
     bool checkDatabaseIfAlreadyUsed(std::string userName, std::string emailAddress);
     void registerNewUser(std::string fullName, std::string userName, std::string password, std::string confirmPassword, std::string emailAddress;
 

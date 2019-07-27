@@ -4,6 +4,7 @@
 #include <vector>
 #include "inputParameterInspection.h"
 #include "userDetails.h"
+#include "registration.h"
 
 int main(){
 
@@ -25,7 +26,7 @@ int main(){
     switch(parameterInspection(userAnswer))
     {
         case REGISTER :
-            std::cout<< "WANT TO REGISTER"<<std::endl;
+            registration::registerNewUser()
             break;
         case LOGIN :
             std::cout<< "WANT TO LOGIN"<<std::endl;
