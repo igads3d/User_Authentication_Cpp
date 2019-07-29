@@ -6,33 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.h
-string
--
-vector
--
-iostream
--
-
-/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/main.cpp
-iostream
--
-stdio.h
--
-string
--
-vector
--
-inputParameterInspection.h
-/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registration.cpp
 registration.h
-/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/registration.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registration.h
 
-/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/registration.cpp
-registration.h
-/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/registration.h
-
-/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/registration.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registration.h
 iostream
 -
 stdio.h
@@ -42,9 +20,9 @@ string
 vector
 -
 userDetails.h
-/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/userDetails.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/userDetails.h
 
-/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/userDetails.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/userDetails.h
 iostream
 -
 map

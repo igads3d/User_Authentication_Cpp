@@ -5,8 +5,8 @@
 #include "inputParameterInspection.h"
 #include "registration.h"
 
-int main(){
-
+int main()
+{
     // Test Users-----------------------------------
     user_t gipszJakab;
     gipszJakab.fullName = "Gipsz Jakab";
@@ -15,7 +15,9 @@ int main(){
     gipszJakab.password = "password123";
     gipszJakab.confirmPassword = "password123";
 
-    //user_t testUser;
+    user_t testUser;
+
+    Registration user(testUser);
     //----------------------------------------------
 
     std::string userAnswer;
@@ -27,7 +29,7 @@ int main(){
     switch(parameterInspection(userAnswer))
     {
         case REGISTER :
-
+            user.registerNewUser();
             break;
         case LOGIN :
             std::cout<< "WANT TO LOGIN"<<std::endl;
@@ -39,6 +41,8 @@ int main(){
              std::cout<< "HI"<<std::endl;
             break;
     }
+
+
 
     return 0;
 }

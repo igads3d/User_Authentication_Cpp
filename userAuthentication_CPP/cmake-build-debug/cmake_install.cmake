@@ -1,4 +1,4 @@
-# Install script for directory: /Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP
+# Install script for directory: /Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/TamasNemeth/Desktop/User_Autentication_Cpp/userAuthentication_CPP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
