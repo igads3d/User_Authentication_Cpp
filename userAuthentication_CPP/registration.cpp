@@ -25,7 +25,7 @@ void Registration::passwordConfirmation(std::string password, std::string passwo
 
     }
 }
-void Registration::checkEmailValidation(std::string email)
+void Registration::EmailValidation(std::string email)
 {
     int tempCounter = 0;
     char atSign = '@';
@@ -39,23 +39,66 @@ void Registration::checkEmailValidation(std::string email)
         registerNewUser();
     }
 }
+void Registration::userNameValidation(std::string userName)
+{
+    std::string numbers = "0123456789";
+    int numberCounter = 0;
+
+    for (int i = 0; i < userName.size(); ++i) {
+        for (int j = 0; j < numbers.size(); ++j) {
+            if(userName[i] == numbers[j]){
+                numberCounter++;
+            }
+        }
+    }
+    if(numberCounter == 0) {
+        std::cout << "Username not valid! Make sure you have used at least 1 number character! Please try again!\n\n"
+                  <<std::endl;
+        registerNewUser();
+    }
+
+}
+void Registration::passwordValidation(std::string password)
+{
+    std::string numbers = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    int numberCounter = 0;
+
+    for (int i = 0; i < password.size(); ++i) {
+        for (int j = 0; j < numbers.size(); ++j) {
+            if(password[i] == numbers[j]){
+                numberCounter++;
+            }
+        }
+    }
+    if(numberCounter == 0) {
+        std::cout << "Password is not valid! Make sure you have used at least 1 UPPERCASE character"
+                     " AND 1 number character as well! Please try again!\n\n"<<std::endl;
+        registerNewUser();
+    }
+}
+
 void Registration::registerNewUser()
 {
-    std::cout<<"Hi there, welcome on board, please 'Click' to start registration!"<<std::endl;
+    std::cout<<"Hi there, welcome on board, let's start you're registration. Please follow the instructions,"
+               " when you enter your details!"<<std::endl;
 
     std::cout<<"Full name:" <<std::endl;
     std::cin>> newRegistration.fullName;
 
-    std::cout<<"Username:"<<std::endl;
+    std::cout<<"Username:                       - At least 1 number! -"<<std::endl;
     std::cin>> newRegistration.userName;
+        userNameValidation(newRegistration.userName);
 
-    std::cout<<"E-mail adderess:"<<std::endl;
+    std::cout<<"E-mail address:                - E-mail form: _____@___.__"<<std::endl;
     std::cin>> newRegistration.emailAddress;
 
-        checkEmailValidation(newRegistration.emailAddress);
+        EmailValidation(newRegistration.emailAddress);
 
-    std::cout<<"Password:"<<std::endl;
+    std::cout<<"Password:                       - At least 1 uppercase letter, and 1 number! -"<<std::endl;
     std::cin>> newRegistration.password;
+
+        passwordValidation(newRegistration.password);
+
     std::cout<<"Confirm password:"<<std::endl;
     std::cin>> newRegistration.confirmPassword;
 
@@ -66,7 +109,7 @@ void Registration::registerNewUser()
     std::cout <<newRegistration.userName <<std::endl;
     std::cout <<newRegistration.emailAddress <<std::endl;
     std::cout <<newRegistration.password<<std::endl;
-    std::cout <<newRegistration.confirmPassword <<std::endl;
 }
+
 
 

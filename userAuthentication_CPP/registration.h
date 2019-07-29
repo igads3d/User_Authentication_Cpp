@@ -13,7 +13,9 @@ public:
     Registration(user_t newUser);
     bool checkDatabaseIfAlreadyUsed(std::string userName, std::string emailAddress);
     void passwordConfirmation(std::string password, std::string passwordConfirmation);
-    void checkEmailValidation(std::string email);
+    void userNameValidation(std::string userName);
+    void EmailValidation(std::string email);
+    void passwordValidation(std::string password);
     void registerNewUser();
 
 private:
