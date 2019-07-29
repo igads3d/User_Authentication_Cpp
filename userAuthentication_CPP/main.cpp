@@ -3,18 +3,19 @@
 #include <string>
 #include <vector>
 #include "inputParameterInspection.h"
-#include "userDetails.h"
 #include "registration.h"
 
 int main(){
 
-    // Test User -----------------------------------
+    // Test Users-----------------------------------
     user_t gipszJakab;
     gipszJakab.fullName = "Gipsz Jakab";
     gipszJakab.userName = "gjakab";
     gipszJakab.emailAddress = "gjakab@gipsz.hu";
     gipszJakab.password = "password123";
     gipszJakab.confirmPassword = "password123";
+
+    //user_t testUser;
     //----------------------------------------------
 
     std::string userAnswer;
@@ -26,7 +27,7 @@ int main(){
     switch(parameterInspection(userAnswer))
     {
         case REGISTER :
-            registration::registerNewUser()
+
             break;
         case LOGIN :
             std::cout<< "WANT TO LOGIN"<<std::endl;

@@ -9,10 +9,8 @@ bool Registration::checkDatabaseIfAlreadyUsed(std::string userName, std::string 
     return false;
 }
 
-void Registration::registerNewUser(std::string fullName, std::string userName, std::string password,
-std::string confirmPassword, std::string emailAddress)
+void Registration::registerNewUser()
 {
-    user_t newRegistration;
     std::cout<<"Hi there, welcome on board, please 'Click' to start registration!"<<std::endl;
     std::cin.get();
 
@@ -29,3 +27,9 @@ std::string confirmPassword, std::string emailAddress)
 
 
 }
+
+Registration::Registration(user_t newUser)
+{
+    newRegistration = newUser;
+}
+
