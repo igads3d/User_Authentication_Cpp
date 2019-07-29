@@ -83,24 +83,30 @@ void Registration::registerNewUser()
                " when you enter your details!"<<std::endl;
 
     std::cout<<"Full name:" <<std::endl;
-    std::cin>> newRegistration.fullName;
+    std::cin>> newRegistration.fullName >> newRegistration.fullName;
+    std::cin.get();
 
     std::cout<<"Username:                       - At least 1 number! -"<<std::endl;
     std::cin>> newRegistration.userName;
+    std::cin.get();
+
         userNameValidation(newRegistration.userName);
 
     std::cout<<"E-mail address:                - E-mail form: _____@___.__"<<std::endl;
     std::cin>> newRegistration.emailAddress;
+    std::cin.get();
 
         EmailValidation(newRegistration.emailAddress);
 
     std::cout<<"Password:                       - At least 1 uppercase letter, and 1 number! -"<<std::endl;
     std::cin>> newRegistration.password;
+    std::cin.get();
 
         passwordValidation(newRegistration.password);
 
     std::cout<<"Confirm password:"<<std::endl;
     std::cin>> newRegistration.confirmPassword;
+    std::cin.get();
 
         passwordConfirmation(newRegistration.password, newRegistration.confirmPassword);
 

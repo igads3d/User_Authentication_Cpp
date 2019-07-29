@@ -22,7 +22,7 @@ int main()
 
     std::string userAnswer;
 
-    std::cout<< "Please welcome in my User Authetication project, let's get started!\nPlease enter if you want to"
+    std::cout<< "\nPlease welcome in my User Authetication project, let's get started!\n\nPlease enter if you want to"
                 " 'register' or 'login' !"<<std::endl;
     std::cin>>userAnswer;
 
