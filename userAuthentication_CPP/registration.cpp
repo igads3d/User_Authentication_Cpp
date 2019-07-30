@@ -4,7 +4,7 @@
 
 #include "registration.h"
 
-Registration::Registration(user_t newUser)
+Registration::Registration(newUser_t newUser)
 {
     newRegistration = newUser;
 }

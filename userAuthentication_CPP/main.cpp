@@ -4,20 +4,24 @@
 #include <vector>
 #include "inputParameterInspection.h"
 #include "registration.h"
+#include "login.h"
+
 
 int main()
 {
     // Test Users-----------------------------------
-    user_t gipszJakab;
+    newUser_t gipszJakab;
     gipszJakab.fullName = "Gipsz Jakab";
     gipszJakab.userName = "gjakab";
     gipszJakab.emailAddress = "gjakab@gipsz.hu";
     gipszJakab.password = "password123";
     gipszJakab.confirmPassword = "password123";
 
-    user_t testUser;
+    newUser_t testUserRegister;
+    alreadyUser_t testUserLogin;
 
-    Registration user(testUser);
+    Registration userRegister(testUserRegister);
+    Login userLogin(testUserLogin);
     //----------------------------------------------
 
     std::string userAnswer;
@@ -29,10 +33,10 @@ int main()
     switch(parameterInspection(userAnswer))
     {
         case REGISTER :
-            user.registerNewUser();
+            userRegister.registerNewUser();
             break;
         case LOGIN :
-            std::cout<< "WANT TO LOGIN"<<std::endl;
+            userLogin.loginUser();
             break;
         case WRONG_INPUT :
              std::cout<< "WRONG FEATURE"<<std::endl;

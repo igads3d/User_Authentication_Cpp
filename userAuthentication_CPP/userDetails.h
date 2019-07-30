@@ -13,6 +13,12 @@
     std::string confirmPassword;
     std::string emailAddress;
 
-} user_t;
+} newUser_t;
+
+typedef struct
+{
+    std::string userName;
+    std::string password;
+} alreadyUser_t;
 
 #endif //USERAU_USERDETAILS_H

@@ -86,6 +86,12 @@
 		<Unit filename="/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.h">
 			<Option target="userAu"/>
 		</Unit>
+		<Unit filename="/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/login.cpp">
+			<Option target="userAu"/>
+		</Unit>
+		<Unit filename="/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/login.h">
+			<Option target="userAu"/>
+		</Unit>
 		<Unit filename="/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/main.cpp">
 			<Option target="userAu"/>
 		</Unit>

@@ -4,7 +4,12 @@
 CMakeFiles/userAu.dir/inputParameterInspection.cpp.o: ../inputParameterInspection.cpp
 CMakeFiles/userAu.dir/inputParameterInspection.cpp.o: ../inputParameterInspection.h
 
+CMakeFiles/userAu.dir/login.cpp.o: ../login.cpp
+CMakeFiles/userAu.dir/login.cpp.o: ../login.h
+CMakeFiles/userAu.dir/login.cpp.o: ../userDetails.h
+
 CMakeFiles/userAu.dir/main.cpp.o: ../inputParameterInspection.h
+CMakeFiles/userAu.dir/main.cpp.o: ../login.h
 CMakeFiles/userAu.dir/main.cpp.o: ../main.cpp
 CMakeFiles/userAu.dir/main.cpp.o: ../registration.h
 CMakeFiles/userAu.dir/main.cpp.o: ../userDetails.h

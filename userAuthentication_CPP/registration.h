@@ -10,7 +10,7 @@
 
 class Registration {
 public:
-    Registration(user_t newUser);
+    Registration(newUser_t newUser);
     bool checkDatabaseIfAlreadyUsed(std::string userName, std::string emailAddress);
     void passwordConfirmation(std::string password, std::string passwordConfirmation);
     void userNameValidation(std::string userName);
@@ -19,7 +19,7 @@ public:
     void registerNewUser();
 
 private:
-    user_t newRegistration;
+    newUser_t newRegistration;
 };
 
 
