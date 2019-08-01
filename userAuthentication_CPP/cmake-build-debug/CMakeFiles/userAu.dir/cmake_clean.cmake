@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/userAu.dir/login.cpp.o"
   "CMakeFiles/userAu.dir/main.cpp.o"
   "CMakeFiles/userAu.dir/registration.cpp.o"
+  "CMakeFiles/userAu.dir/registrationIntoDatabase.cpp.o"
   "userAu"
   "userAu.pdb"
 )

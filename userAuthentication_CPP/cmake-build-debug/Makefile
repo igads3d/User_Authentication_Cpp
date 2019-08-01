@@ -231,6 +231,33 @@ registration.cpp.s:
 	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/registration.cpp.s
 .PHONY : registration.cpp.s
 
+registrationIntoDatabase.o: registrationIntoDatabase.cpp.o
+
+.PHONY : registrationIntoDatabase.o
+
+# target to build an object file
+registrationIntoDatabase.cpp.o:
+	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/registrationIntoDatabase.cpp.o
+.PHONY : registrationIntoDatabase.cpp.o
+
+registrationIntoDatabase.i: registrationIntoDatabase.cpp.i
+
+.PHONY : registrationIntoDatabase.i
+
+# target to preprocess a source file
+registrationIntoDatabase.cpp.i:
+	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/registrationIntoDatabase.cpp.i
+.PHONY : registrationIntoDatabase.cpp.i
+
+registrationIntoDatabase.s: registrationIntoDatabase.cpp.s
+
+.PHONY : registrationIntoDatabase.s
+
+# target to generate assembly for a file
+registrationIntoDatabase.cpp.s:
+	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/registrationIntoDatabase.cpp.s
+.PHONY : registrationIntoDatabase.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +279,9 @@ help:
 	@echo "... registration.o"
 	@echo "... registration.i"
 	@echo "... registration.s"
+	@echo "... registrationIntoDatabase.o"
+	@echo "... registrationIntoDatabase.i"
+	@echo "... registrationIntoDatabase.s"
 .PHONY : help
 
 

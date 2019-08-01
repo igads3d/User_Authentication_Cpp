@@ -101,6 +101,12 @@
 		<Unit filename="/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registration.h">
 			<Option target="userAu"/>
 		</Unit>
+		<Unit filename="/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registrationIntoDatabase.cpp">
+			<Option target="userAu"/>
+		</Unit>
+		<Unit filename="/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registrationIntoDatabase.h">
+			<Option target="userAu"/>
+		</Unit>
 		<Unit filename="/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/userDetails.h">
 			<Option target="userAu"/>
 		</Unit>
