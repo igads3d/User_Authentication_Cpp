@@ -92,12 +92,12 @@ void Registration::registerNewUser()
 
         userNameValidation(newRegistration.userName);
 
-    std::cout<<"E-mail address:                - E-mail form: _____@___.__"<<std::endl;
+    /*std::cout<<"E-mail address:                - E-mail form: _____@___.__"<<std::endl;
     std::cin>> newRegistration.emailAddress;
     std::cin.get();
 
         EmailValidation(newRegistration.emailAddress);
-
+*/
     std::cout<<"Password:                       - At least 1 uppercase letter, and 1 number! -"<<std::endl;
     std::cin>> newRegistration.password;
     std::cin.get();
@@ -110,6 +110,9 @@ void Registration::registerNewUser()
 
         passwordConfirmation(newRegistration.password, newRegistration.confirmPassword);
 
+
+    registrationToDatabase(newRegistration.userName, newRegistration.fullName, newRegistration.emailAddress,
+            newRegistration.password);
 
     std::cout << newRegistration.fullName <<std::endl;
     std::cout <<newRegistration.userName <<std::endl;

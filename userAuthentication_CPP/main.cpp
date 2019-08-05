@@ -5,7 +5,7 @@
 #include "inputParameterInspection.h"
 #include "registration.h"
 #include "login.h"
-
+#include "sqlite3.h"
 
 int main()
 {

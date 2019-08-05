@@ -6,71 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.h
-string
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registrationIntoDatabase.cpp
+registrationIntoDatabase.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registrationIntoDatabase.h
+
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registrationIntoDatabase.h
+stdio.h
+-
+stdlib.h
+-
+sqlite3.h
+-
+iostream
 -
 vector
 -
-iostream
--
-
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/login.cpp
-login.h
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/login.h
-
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/login.h
-iostream
--
-stdio.h
--
 string
--
-vector
--
-userDetails.h
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/userDetails.h
-string
--
-
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/main.cpp
-iostream
--
-stdio.h
--
-string
--
-vector
--
-inputParameterInspection.h
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/inputParameterInspection.h
-registration.h
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registration.h
-login.h
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/login.h
-
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registration.cpp
-registration.h
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registration.h
-
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/registration.h
-iostream
--
-stdio.h
--
-string
--
-vector
--
-userDetails.h
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/userDetails.h
-
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userAuthentication_CPP/userDetails.h
-iostream
--
-map
--
-fstream
--
-stdio.h
 -
 

@@ -3,6 +3,8 @@
 #include <string>
 #include <vector>
 #include "userDetails.h"
+#include "registrationIntoDatabase.h"
+
 
 #ifndef USERAU_REGISTRATION_H
 #define USERAU_REGISTRATION_H

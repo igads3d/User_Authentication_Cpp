@@ -1,14 +1,22 @@
 #include "registrationIntoDatabase.h"
 
+static int callback(void *NotUsed, int argc, char **argv, char **azColName) {
+    int i;
+    for (i = 0; i < argc; i++) {
+        printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+    }
+    printf("\n");
+    return 0;
+}
 
 void registrationToDatabase(std::string userName, std::string fullName, std::string emailAddress, std::string password)
 {
     sqlite3 *database;
     char *errorMessage = 0;
     int errorCode;
-    char *sql;
+    std::string sql;
 
-    errorCode = sqlite3_open("test.db", &database);
+    errorCode = sqlite3_open("data.sql", &database);
 
     if (errorCode) {
         std::cout << "Can't open database! Error code: " << sqlite3_errcode(database)<<std::endl;
@@ -19,15 +27,21 @@ void registrationToDatabase(std::string userName, std::string fullName, std::str
 
     }
 
-    sql = "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) "  \
-         "VALUES (1, 'Paul', 32, 'California', 20000.00 ); " \
-         "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) "  \
-         "VALUES (2, 'Allen', 25, 'Texas', 15000.00 ); "     \
-         "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY)" \
-         "VALUES (3, 'Teddy', 23, 'Norway', 20000.00 );" \
-         "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY)" \
-         "VALUES (4, 'Mark', 25, 'Rich-Mond ', 65000.00 );";
 
+    sql = "INSERT INTO USERDATA (USERNAME, FULLNAME, EMAIL, PASSWORD)"  \
+         "VALUES ('" + userName + "', " + fullName + ");";
+
+
+
+    errorCode = sqlite3_exec(database, sql.c_str(), callback, 0, &errorMessage);
+
+
+    if( errorCode != SQLITE_OK ){
+        fprintf(stderr, "SQL error: %s\n", errorMessage);
+        sqlite3_free(errorMessage);
+    } else {
+        fprintf(stdout, "Records created successfully\n");
+    }
     sqlite3_close(database);
 }
 
