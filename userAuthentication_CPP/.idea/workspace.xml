@@ -12,18 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55269098-70fb-4602-b50c-32fe260ac26f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/userAu.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/userAu.dir/registration.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/userAu.dir/registrationIntoDatabase.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/database.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/database.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/registration.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registrationIntoDatabase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/registrationIntoDatabase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registrationIntoDatabase.h" beforeDir="false" afterPath="$PROJECT_DIR$/registrationIntoDatabase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userDetails.h" beforeDir="false" afterPath="$PROJECT_DIR$/userDetails.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -140,8 +129,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/registrationIntoDatabase.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="542">
-                  <caret line="74" column="81" selection-start-line="74" selection-start-column="81" selection-end-line="74" selection-end-column="81" />
+                <state relative-caret-position="15">
+                  <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -250,12 +239,12 @@
       <workItem from="1564378309166" duration="218000" />
       <workItem from="1564378718924" duration="9746000" />
       <workItem from="1564667774851" duration="14169000" />
-      <workItem from="1565018633322" duration="10035000" />
+      <workItem from="1565018633322" duration="10552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44420000" />
+    <option name="totallyTimeSpent" value="44937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1083" y="372" width="1477" height="987" extended-state="0" />
@@ -413,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/registrationIntoDatabase.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="74" column="81" selection-start-line="74" selection-start-column="81" selection-end-line="74" selection-end-column="81" />
+        <state relative-caret-position="15">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
