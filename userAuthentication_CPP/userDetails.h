@@ -8,6 +8,8 @@
  typedef struct
 {
     std::string fullName;
+    std::string firstName;
+    std::string lastName;
     std::string userName;
     std::string password;
     std::string confirmPassword;

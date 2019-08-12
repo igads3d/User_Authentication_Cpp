@@ -82,8 +82,13 @@ void Registration::registerNewUser()
     std::cout<<"Hi there, welcome on board, let's start you're registration. Please follow the instructions,"
                " when you enter your details!"<<std::endl;
 
-    std::cout<<"Full name:" <<std::endl;
-    std::cin>> newRegistration.fullName >> newRegistration.fullName;
+    std::cout<<"First name:" <<std::endl;
+    std::cin>> newRegistration.firstName;
+    std::cin.get();
+
+    std::cout<<"Last name:" <<std::endl;
+    std::cin>> newRegistration.lastName;
+    newRegistration.fullName = newRegistration.firstName + " " + newRegistration.lastName;
     std::cin.get();
 
     std::cout<<"Username:                       - At least 1 number! -"<<std::endl;
@@ -92,12 +97,12 @@ void Registration::registerNewUser()
 
         userNameValidation(newRegistration.userName);
 
-    /*std::cout<<"E-mail address:                - E-mail form: _____@___.__"<<std::endl;
+    std::cout<<"E-mail address:                - E-mail form: _____@___.__"<<std::endl;
     std::cin>> newRegistration.emailAddress;
     std::cin.get();
 
         EmailValidation(newRegistration.emailAddress);
-*/
+
     std::cout<<"Password:                       - At least 1 uppercase letter, and 1 number! -"<<std::endl;
     std::cin>> newRegistration.password;
     std::cin.get();
@@ -111,13 +116,9 @@ void Registration::registerNewUser()
         passwordConfirmation(newRegistration.password, newRegistration.confirmPassword);
 
 
-    registrationToDatabase(newRegistration.userName, newRegistration.fullName, newRegistration.emailAddress,
+    insertIntoDatabase(newRegistration.userName, newRegistration.fullName, newRegistration.emailAddress,
             newRegistration.password);
 
-    std::cout << newRegistration.fullName <<std::endl;
-    std::cout <<newRegistration.userName <<std::endl;
-    std::cout <<newRegistration.emailAddress <<std::endl;
-    std::cout <<newRegistration.password<<std::endl;
 }
 
 
