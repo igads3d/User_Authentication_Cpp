@@ -12,5 +12,4 @@ userInput parameterInspection(std::string input)
     } else {
         return WRONG_INPUT;
     }
-
 }
