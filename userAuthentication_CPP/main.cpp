@@ -9,14 +9,6 @@
 
 int main()
 {
-    // Test Users-----------------------------------
-    newUser_t gipszJakab;
-    gipszJakab.fullName = "Gipsz Jakab";
-    gipszJakab.userName = "gjakab";
-    gipszJakab.emailAddress = "gjakab@gipsz.hu";
-    gipszJakab.password = "password123";
-    gipszJakab.confirmPassword = "password123";
-
     newUser_t testUserRegister;
     alreadyUser_t testUserLogin;
 
@@ -45,8 +37,6 @@ int main()
              std::cout<< "HI"<<std::endl;
             break;
     }
-
-
 
     return 0;
 }
