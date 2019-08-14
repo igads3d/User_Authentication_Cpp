@@ -5,7 +5,7 @@
 #include <fstream>
 #include <stdio.h>
 
- typedef struct
+typedef struct
 {
     std::string fullName;
     std::string firstName;
