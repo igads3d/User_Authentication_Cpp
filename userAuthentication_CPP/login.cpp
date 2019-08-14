@@ -26,6 +26,5 @@ void Login::loginUser()
 
     std::cout<< "Welcome " << alreadyUser.userName<<"!"<<std::endl;
 
-
 }
 

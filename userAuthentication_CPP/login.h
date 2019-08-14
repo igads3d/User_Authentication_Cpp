@@ -19,5 +19,4 @@ private:
     alreadyUser_t alreadyUser;
 };
 
-
 #endif //USERAU_LOGIN_H
