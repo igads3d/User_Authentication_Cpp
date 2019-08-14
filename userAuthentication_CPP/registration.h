@@ -24,5 +24,4 @@ private:
     newUser_t newRegistration;
 };
 
-
 #endif //USERAU_REGISTRATION_H

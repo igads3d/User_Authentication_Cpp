@@ -115,11 +115,11 @@ void Registration::registerNewUser()
 
         passwordConfirmation(newRegistration.password, newRegistration.confirmPassword);
 
-    usernameIfAlreadyUsed(newRegistration.userName);
     insertIntoDatabase(newRegistration.userName, newRegistration.fullName, newRegistration.emailAddress,
             newRegistration.password);
 
 }
+
 
 
 
