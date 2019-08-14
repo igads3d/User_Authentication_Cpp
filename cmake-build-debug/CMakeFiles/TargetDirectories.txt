@@ -1,0 +1,3 @@
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/cmake-build-debug/CMakeFiles/userAu.dir

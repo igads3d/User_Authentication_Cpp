@@ -1,0 +1,102 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/inputParameterInspection.cpp
+inputParameterInspection.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/inputParameterInspection.h
+
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/inputParameterInspection.h
+string
+-
+vector
+-
+iostream
+-
+
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/login.cpp
+login.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/login.h
+
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/login.h
+iostream
+-
+stdio.h
+-
+string
+-
+vector
+-
+userDetails.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userDetails.h
+string
+-
+
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/main.cpp
+iostream
+-
+stdio.h
+-
+string
+-
+vector
+-
+inputParameterInspection.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/inputParameterInspection.h
+registration.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/registration.h
+login.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/login.h
+sqlite3.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/sqlite3.h
+
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/registration.cpp
+registration.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/registration.h
+
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/registration.h
+iostream
+-
+stdio.h
+-
+string
+-
+vector
+-
+userDetails.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userDetails.h
+registrationIntoDatabase.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/registrationIntoDatabase.h
+
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/registrationIntoDatabase.cpp
+registrationIntoDatabase.h
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/registrationIntoDatabase.h
+
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/registrationIntoDatabase.h
+stdio.h
+-
+stdlib.h
+-
+sqlite3.h
+-
+iostream
+-
+vector
+-
+string
+-
+
+/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userDetails.h
+iostream
+-
+map
+-
+fstream
+-
+stdio.h
+-
+
