@@ -34,14 +34,16 @@ void insertIntoDatabase (std::string userName, std::string fullName, std::string
     sqlite3_exec(database, sql, 0, 0, &errorMessage);
 
     std::string command;
-    command = "INSERT INTO USER_DATA (USERNAME, FULL_NAME, MAIL, PASSWORD) "  \
-		"VALUES ('" + userName + "', '" + fullName + "','" + emailAddress + "', '" + password + "');";
+    command = "INSERT INTO USER_DATA (USERNAME, FULL_NAME, MAIL, PASSWORD) " \
+    "WHERE NOT EXISTS(SELECT USERNAME, MAIL FROM USER_DATA);" \
+    "VALUES ('" + userName + "', '" + fullName + "','" + emailAddress + "', '" + password + "');";
+
 
     sql = command.c_str();
     errorCode = sqlite3_exec(database, sql, 0, 0, &errorMessage);
 
     if (errorCode) {
-        std::cout << "The data can't be saved or already exist!" << std::endl;
+        std::cout << "The data can't be saved, E-mail Address or Username is ALREADY EXIST!" << std::endl;
         std::cout << errorMessage << std::endl;
         std::cin.get();
     }
