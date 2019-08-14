@@ -12,5 +12,6 @@
 
 void registrationToDatabase(std::string userName, std::string fullName, std::string emailAddress, std::string password);
 void insertIntoDatabase (std::string userName, std::string fullName, std::string emailAddress, std::string password);
+void usernameIfAlreadyUsed (std::string userName);
 
 #endif //USERAU_REGISTRATIONINTODATABASE_H
