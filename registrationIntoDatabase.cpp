@@ -48,24 +48,3 @@ void insertIntoDatabase (std::string userName, std::string fullName, std::string
 
     sqlite3_close(database);
 }
-
-
-void usernameIfAlreadyUsed (std::string userName)
-{
-    sqlite3 *db;
-    sqlite3_stmt *stmt;
-
-    char *str;
-    if (sqlite3_open("../database.db", &db) == SQLITE_OK) {
-        sqlite3_prepare(db, "SELECT * from abe_account;", -1, &stmt, NULL);//preparing the statement
-        sqlite3_step(stmt);//executing the statement
-        str = (char *) sqlite3_column_text(stmt, 0);///reading the 1st column of the result
-    } else {
-        std::cout << "Failed to open db\n";
-    }
-
-    sqlite3_finalize(stmt);
-    sqlite3_close(db);
-
-    std::cout << str << std::endl;
-}
