@@ -14,7 +14,6 @@ typedef struct
     std::string password;
     std::string confirmPassword;
     std::string emailAddress;
-
 } newUser_t;
 
 typedef struct
