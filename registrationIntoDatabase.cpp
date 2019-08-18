@@ -35,7 +35,6 @@ void insertIntoDatabase (std::string userName, std::string fullName, std::string
 
     std::string command;
     command = "INSERT INTO USER_DATA (USERNAME, FULL_NAME, MAIL, PASSWORD) " \
-    "WHERE NOT EXISTS(SELECT USERNAME, MAIL FROM USER_DATA);" \
     "VALUES ('" + userName + "', '" + fullName + "','" + emailAddress + "', '" + password + "');";
 
 
