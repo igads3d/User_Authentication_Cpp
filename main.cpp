@@ -9,14 +9,17 @@
 
 int main()
 {
-    newUser_t testUserRegister;
-    alreadyUser_t testUserLogin;
-
-    Registration userRegister(testUserRegister);
-    Login userLogin(testUserLogin);
-    //----------------------------------------------
-
     std::string userAnswer;
+
+    newUser_t testUserRegister;
+    Registration userRegister(testUserRegister);
+
+    alreadyUser_t testUserLogin;
+    Login userLogin(testUserLogin);
+
+
+    //----------------------------------------------------------------------------------------------------------------
+
 
     std::cout<< "\nPlease welcome in my User Authetication project, let's get started!\n\nPlease enter if you want to"
                 " 'register' or 'login' !"<<std::endl;
