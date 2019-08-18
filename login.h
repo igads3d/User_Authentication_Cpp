@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include "userDetails.h"
+#include "loginFromDatabase.h"
 
 #ifndef USERAU_LOGIN_H
 #define USERAU_LOGIN_H

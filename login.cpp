@@ -11,6 +11,7 @@ Login::Login(alreadyUser_t user)
 
 void Login::loginUser()
 {
+    bool login;
 
     std::cout << "Please enter your 'username' and your 'password' to login!\n\n"<<std::endl;
 
@@ -22,9 +23,17 @@ void Login::loginUser()
     std::cout<<"password: ";
     std::cin>> alreadyUser.password;
 
+    login = loginFromDatabase(alreadyUser.userName, alreadyUser.password);
+
+    if(login == true) {
+        Login::loginUser();
+    } else{
+        Login::loginUser();
+    }
+
     std::cout<<std::endl;
 
-    std::cout<< "Welcome " << alreadyUser.userName<<"!"<<std::endl;
+
 
 }
 
