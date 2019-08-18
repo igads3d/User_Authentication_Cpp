@@ -1,6 +1,5 @@
 #include "inputParameterInspection.h"
 
-
 userInput parameterInspection(std::string input)
 {
     std::string featureName = input;
