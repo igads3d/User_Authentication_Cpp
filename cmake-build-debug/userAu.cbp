@@ -92,6 +92,12 @@
 		<Unit filename="/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/login.h">
 			<Option target="userAu"/>
 		</Unit>
+		<Unit filename="/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/loginFromDatabase.cpp">
+			<Option target="userAu"/>
+		</Unit>
+		<Unit filename="/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/loginFromDatabase.h">
+			<Option target="userAu"/>
+		</Unit>
 		<Unit filename="/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/main.cpp">
 			<Option target="userAu"/>
 		</Unit>

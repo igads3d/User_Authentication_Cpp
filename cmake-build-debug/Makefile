@@ -177,6 +177,33 @@ login.cpp.s:
 	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/login.cpp.s
 .PHONY : login.cpp.s
 
+loginFromDatabase.o: loginFromDatabase.cpp.o
+
+.PHONY : loginFromDatabase.o
+
+# target to build an object file
+loginFromDatabase.cpp.o:
+	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/loginFromDatabase.cpp.o
+.PHONY : loginFromDatabase.cpp.o
+
+loginFromDatabase.i: loginFromDatabase.cpp.i
+
+.PHONY : loginFromDatabase.i
+
+# target to preprocess a source file
+loginFromDatabase.cpp.i:
+	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/loginFromDatabase.cpp.i
+.PHONY : loginFromDatabase.cpp.i
+
+loginFromDatabase.s: loginFromDatabase.cpp.s
+
+.PHONY : loginFromDatabase.s
+
+# target to generate assembly for a file
+loginFromDatabase.cpp.s:
+	$(MAKE) -f CMakeFiles/userAu.dir/build.make CMakeFiles/userAu.dir/loginFromDatabase.cpp.s
+.PHONY : loginFromDatabase.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -273,6 +300,9 @@ help:
 	@echo "... login.o"
 	@echo "... login.i"
 	@echo "... login.s"
+	@echo "... loginFromDatabase.o"
+	@echo "... loginFromDatabase.i"
+	@echo "... loginFromDatabase.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
