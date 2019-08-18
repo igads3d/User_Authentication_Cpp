@@ -1,7 +1,6 @@
 //
 // Created by Nemeth Tamas on 2019-07-26.
 //
-
 #include "registration.h"
 
 Registration::Registration(newUser_t newUser)
@@ -119,7 +118,3 @@ void Registration::registerNewUser()
             newRegistration.password);
 
 }
-
-
-
-
