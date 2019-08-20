@@ -22,8 +22,8 @@ The program has to be run by compiler. It has got database which stores Users da
 
 - ### At the beginning, the User can go 2 different ways, 'login' or 'registration'.<br/>
 
-<img src="img/firstpage.png" alt="firstpage" width="500" height="300">
-<img src="img/mainSwitchCase.png" alt="main" width="500" height="300"> 
+<img src="img/firstpage.png" alt="firstpage" width="700" height="300">
+<img src="img/mainSwitchCase.png" alt="main" width="700" height="300"> 
  
  <br/>
   
@@ -31,7 +31,7 @@ The program has to be run by compiler. It has got database which stores Users da
 
 <br/>
 
-<img src="img/login.png" alt="login" width="500" height="300">
+<img src="img/login.png" alt="login" width="700" height="300">
 <img src="img/loggedin.png" alt="loggedin" width="700" height="300">
 <br/>
 
@@ -47,11 +47,11 @@ There are some criterion to register:<br/>
 - user has to confirm the password<br/>
 <br/>
 
-<img src="img/register.png" alt="register" width="500" height="300">
+<img src="img/register.png" alt="register" width="700" height="300">
 
 `NOTE: ALL USER DATA IN DATABASE ARE FAKE!`<br/>
 
-<img src="img/database.png" alt="database" width="500" height="300">
+<img src="img/database.png" alt="database" width="700" height="300">
 <br/>
 
 ### If a condition isn't met, the program drops the user to the beginning of the registration.
