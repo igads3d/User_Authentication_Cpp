@@ -27,13 +27,12 @@ The program has to be run by compiler. It has got database which store Users dat
  
  <br/>
   
-- ### At the 'login' feature prompt the User to enter 'Username' and 'Password', and 
-looking for a match in database. If the entered details are matching, all User data are show up.
+- ### At the 'login' feature prompt the User to enter 'Username' and 'Password', and looking for a match in database. If the entered details are matching, all User data are show up.
 
 <br/>
 
 <img src="img/login.png" alt="login" width="500" height="300">
-<img src="img/loggedin.png" alt="loggedin" width="500" height="300">
+<img src="img/loggedin.png" alt="loggedin" width="700" height="300">
 <br/>
 
 - ### At the 'register' feature prompt the User to enter 'First name', 'Last name', 'Username', 'E-mail address', 'Password' and 'Confirm password'.
