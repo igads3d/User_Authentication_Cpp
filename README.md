@@ -48,6 +48,7 @@ There are some criterion to register:<br/>
 <br/>
 
 <img src="img/register.png" alt="register" width="500" height="300">
+`NOTE: ALL USER DATA IN DATABASE ARE FAKE!`
 <img src="img/database.png" alt="database" width="500" height="300">
 <br/>
 
