@@ -21,7 +21,7 @@ bool loginFromDatabase(std::string userName, std::string password) {
     sqlite3 *database;
     int exit = 0;
     exit = sqlite3_open("../database.db", &database);
-    std::string data = "CALLBACK FUNCTION";
+    std::string data;
 
     std::string sql = "SELECT * FROM USER_DATA WHERE USERNAME = '" + userName + "' AND PASSWORD = '" + password + "'";
 
