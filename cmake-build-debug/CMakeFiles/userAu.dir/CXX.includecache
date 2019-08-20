@@ -6,26 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/login.cpp
-login.h
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/login.h
-
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/login.h
-iostream
--
-stdio.h
--
-string
--
-vector
--
-userDetails.h
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userDetails.h
-loginFromDatabase.h
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/loginFromDatabase.h
-string
--
-
 /Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/loginFromDatabase.cpp
 loginFromDatabase.h
 /Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/loginFromDatabase.h
@@ -42,15 +22,5 @@ iostream
 vector
 -
 string
--
-
-/Users/tamasnemeth/Documents/Coding Projects/User_Autentication_Cpp/userDetails.h
-iostream
--
-map
--
-fstream
--
-stdio.h
 -
 
