@@ -9,7 +9,7 @@
 ## Project documentation <br/>
 
 User Authentication project dreamed by me. I used c++ programming language, due to my knowledge.
-The program has to be run by compiler. It has got database which store Users data.
+The program has to be run by compiler. It has got database which stores Users data.
 <br/>
 
 `NOTE: ALL USER DATA IN DATABASE ARE FAKE!`
