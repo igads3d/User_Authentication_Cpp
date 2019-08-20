@@ -32,8 +32,11 @@ looking for a match in database. If the entered details are matching, all User d
 <br/>
 
 - ###  At the 'register' feature prompt the User to enter 'First name', 'Last name', 'Username', 'E-mail address', 'Password' and 'Confirm password'.
+
 <br/>
+
 There are some criterion to register:<br/>
+
 - username has to be unique, contain one number at least<br/>
 - e-mail address formal has to be followed<br/>
 - password has to contain at least one uppercase letter, and one number<br/>
