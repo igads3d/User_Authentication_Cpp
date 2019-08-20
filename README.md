@@ -1,10 +1,10 @@
 # User Authentication Project <br/>
 
-_created by_ [Tamás Németh](https://www.linkedin.com/in/tam%C3%A1s-n%C3%A9meth-793459161/) <br/>
-_gitHub:_ [ithomas91](https://github.com/ithomas91) <br/>
-_used technology:_ [C++14](https://en.wikipedia.org/wiki/C%2B%2B14) <br/>
-_used compiler:_ [CLion by JetBrains](https://www.jetbrains.com/clion/download) <br/>
-_database engine:_ [SQLite3](https://www.sqlite.org/index.html) <br/>
+- _created by_ [Tamás Németh](https://www.linkedin.com/in/tam%C3%A1s-n%C3%A9meth-793459161/) <br/>
+- _gitHub:_ [ithomas91](https://github.com/ithomas91) <br/>
+- _used technology:_ [C++14](https://en.wikipedia.org/wiki/C%2B%2B14) <br/>
+- _used compiler:_ [CLion by JetBrains](https://www.jetbrains.com/clion/download) <br/>
+- _database engine:_ [SQLite3](https://www.sqlite.org/index.html) <br/>
 
 ## Project documentation <br/>
 
@@ -32,10 +32,10 @@ looking for a match in database. If the entered details are matching, all User d
 - At the 'register' feature prompt the User to enter 'First name', 'Last name', 'Username', 'E-mail address', 'Password' and 'Confirm password'.
 <br/>
 There are some criterion to register:<br/>
-* username has to be unique, contain one number at least<br/>
-* e-mail address formal has to be followed<br/>
-* password has to contain at least one uppercase letter, and one number<br/>
-* user has to confirm the password<br/>
+- username has to be unique, contain one number at least<br/>
+- e-mail address formal has to be followed<br/>
+- password has to contain at least one uppercase letter, and one number<br/>
+- user has to confirm the password<br/>
 <br/>
 
 <img src="img/register.png" alt="register" width="500" height="300">
