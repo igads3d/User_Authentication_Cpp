@@ -19,15 +19,15 @@ The program has to be run by compiler. It has got database which store Users dat
 
 - At the beginning, the User can go 2 different ways, 'login' or 'registration'.<br/>
 
-<img src="img/firstpage.jpg" alt="firstpage" width="51" height="77">
-<img src="img/mainSwitchCase.png" alt="main" width="51" height="77"> 
+<img src="img/firstpage.jpg" alt="firstpage" width="200" height="300">
+<img src="img/mainSwitchCase.png" alt="main" width="200" height="300"> 
   
 - At the 'login' feature prompt the User to enter 'Username' and 'Password', and 
 looking for a match in database. If the entered details are matching, all User data are show up.
 <br/>
 
-<img src="img/login.png" alt="login" width="51" height="77">
-<img src="img/loggedin.png" alt="loggedin" width="51" height="77">
+<img src="img/login.png" alt="login" width="200" height="300">
+<img src="img/loggedin.png" alt="loggedin" width="200" height="300">
 
 - At the 'register' feature prompt the User to enter 'First name', 'Last name', 'Username', 'E-mail address', 'Password' and 'Confirm password'.
 <br/>
@@ -38,8 +38,8 @@ There are some criterion to register:<br/>
 * user has to confirm the password<br/>
 <br/>
 
-<img src="img/register.png" alt="register" width="51" height="77">
-<img src="img/database.png" alt="database" width="51" height="77">
+<img src="img/register.png" alt="register" width="200" height="300">
+<img src="img/database.png" alt="database" width="200" height="300">
 
 If a condition isn't met, the program drops the user to the beginning of the registration.
 <br/>
