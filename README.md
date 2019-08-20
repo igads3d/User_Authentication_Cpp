@@ -23,6 +23,7 @@ The program has to be run by compiler. It has got database which store Users dat
 <img src="img/firstpage.png" alt="firstpage" width="500" height="300">
 <img src="img/mainSwitchCase.png" alt="main" width="500" height="300"> 
   <br/>
+  
 - ###  At the 'login' feature prompt the User to enter 'Username' and 'Password', and 
 looking for a match in database. If the entered details are matching, all User data are show up.
 <br/>
