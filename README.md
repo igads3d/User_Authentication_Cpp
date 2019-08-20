@@ -23,7 +23,7 @@ The program has to be run by compiler. It has got database which store Users dat
 <img src="img/firstpage.png" alt="firstpage" width="500" height="300">
 <img src="img/mainSwitchCase.png" alt="main" width="500" height="300"> 
   <br/>
-# - At the 'login' feature prompt the User to enter 'Username' and 'Password', and 
+- ###  At the 'login' feature prompt the User to enter 'Username' and 'Password', and 
 looking for a match in database. If the entered details are matching, all User data are show up.
 <br/>
 
@@ -31,7 +31,7 @@ looking for a match in database. If the entered details are matching, all User d
 <img src="img/loggedin.png" alt="loggedin" width="500" height="300">
 <br/>
 
-# - At the 'register' feature prompt the User to enter 'First name', 'Last name', 'Username', 'E-mail address', 'Password' and 'Confirm password'.
+- ###  At the 'register' feature prompt the User to enter 'First name', 'Last name', 'Username', 'E-mail address', 'Password' and 'Confirm password'.
 <br/>
 There are some criterion to register:<br/>
 - username has to be unique, contain one number at least<br/>
@@ -44,5 +44,5 @@ There are some criterion to register:<br/>
 <img src="img/database.png" alt="database" width="500" height="300">
 <br/>
 
-# If a condition isn't met, the program drops the user to the beginning of the registration.
+### If a condition isn't met, the program drops the user to the beginning of the registration.
 <br/>
