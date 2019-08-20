@@ -15,21 +15,21 @@ The program has to be run by compiler. It has got database which store Users dat
 `NOTE: ALL USER DATA IN DATABASE ARE FAKE!`
 <br/>
 
-## List of available features with examples in alphabetical order
-
-- At the beginning, the User can go 2 different ways, 'login' or 'registration'.<br/>
+## List of available features with examples
+<br/>
+# - At the beginning, the User can go 2 different ways, 'login' or 'registration'.<br/>
 
 <img src="img/firstpage.png" alt="firstpage" width="500" height="300">
 <img src="img/mainSwitchCase.png" alt="main" width="500" height="300"> 
-  
-- At the 'login' feature prompt the User to enter 'Username' and 'Password', and 
+  <br/>
+# - At the 'login' feature prompt the User to enter 'Username' and 'Password', and 
 looking for a match in database. If the entered details are matching, all User data are show up.
 <br/>
 
 <img src="img/login.png" alt="login" width="500" height="300">
 <img src="img/loggedin.png" alt="loggedin" width="500" height="300">
-
-- At the 'register' feature prompt the User to enter 'First name', 'Last name', 'Username', 'E-mail address', 'Password' and 'Confirm password'.
+<br/>
+# - At the 'register' feature prompt the User to enter 'First name', 'Last name', 'Username', 'E-mail address', 'Password' and 'Confirm password'.
 <br/>
 There are some criterion to register:<br/>
 - username has to be unique, contain one number at least<br/>
@@ -40,6 +40,6 @@ There are some criterion to register:<br/>
 
 <img src="img/register.png" alt="register" width="500" height="300">
 <img src="img/database.png" alt="database" width="500" height="300">
-
-If a condition isn't met, the program drops the user to the beginning of the registration.
+<br/>
+# If a condition isn't met, the program drops the user to the beginning of the registration.
 <br/>
