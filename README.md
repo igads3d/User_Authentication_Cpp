@@ -18,7 +18,7 @@ The program has to be run by compiler. It has got database which store Users dat
 ## List of available features with examples
 <br/>
 
-- # At the beginning, the User can go 2 different ways, 'login' or 'registration'.<br/>
+- ### At the beginning, the User can go 2 different ways, 'login' or 'registration'.<br/>
 
 <img src="img/firstpage.png" alt="firstpage" width="500" height="300">
 <img src="img/mainSwitchCase.png" alt="main" width="500" height="300"> 
